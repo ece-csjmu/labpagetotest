@@ -15,17 +15,22 @@ body {
   }
   .column {
     float: left;
-    width: 33.3%;
+    width: 33.33%;
     margin-top: 20px;
     margin-bottom: 10px;
     padding: 0px 8px;
   }
   .video{
-    position: relative;
     margin-top: 10px;
-    padding-top: 10px;
-    border-radius: 30px;
+    border-radius: 20px;
   }
+  iframe{
+    margin-top: 20px;
+    border-radius: 20px;
+    width: 90%;
+    height: 40vh;
+    box-shadow: 0px 0px 2px 2px #544bb0;
+   }
   
   .card {
     border-radius: 15px;
@@ -93,9 +98,9 @@ body {
 }
 @keyframes blinkingBackground{
     0%		{ background-color: #10c018;}
-    25%		{ background-color: #1056c0;}
-    50%		{ background-color: #ef0a1a;}
-    75%		{ background-color: #254878;}
+    25%		{ background-color: #587aab;}
+    50%		{ background-color: #946265;}
+    75%		{ background-color: #71aaf9;}
     100%	   { background-color: #04a1d5;}
 }
 @media screen and (max-width: 650px) {
